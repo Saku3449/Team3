@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelectTime.unity
     guid: f7f4da924aa1d47119aa26c94c61dc1b
+  - enabled: 1
+    path: Assets/Scenes/PlayScene.unity
+    guid: d7c1a8348005a4892a2bf4fdd7bb0237
   m_configObjects: {}

@@ -19,23 +19,23 @@ public class JidaiManager : MonoBehaviour
     public void TimeNext(Button button){
         Text selectedBtn = button.GetComponentInChildren<Text> ();
         if (selectedBtn.text == "平安時代") {
-            eraFlag=1;
+            eraFlag=0;
             SceneManager.LoadScene("SelectDifficulty");
         }
         else if (selectedBtn.text == "鎌倉時代") {
-            eraFlag=2;
+            eraFlag=1;
             SceneManager.LoadScene("SelectDifficulty");
         }
         else if (selectedBtn.text == "室町時代") {
-            eraFlag=3;
+            eraFlag=2;
             SceneManager.LoadScene("SelectDifficulty");
         }
         else if (selectedBtn.text == "安土桃山時代") {
-            eraFlag=4;
+            eraFlag=3;
             SceneManager.LoadScene("SelectDifficulty");
         }
 		else if (selectedBtn.text == "江戸時代") {
-            eraFlag=5;
+            eraFlag=4;
             SceneManager.LoadScene("SelectDifficulty");
         }
         else if (selectedBtn.text == "明治時代") {

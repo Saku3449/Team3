@@ -23,15 +23,15 @@ public class DifficultManager : MonoBehaviour
     public void DifficultNext(Button button){
         Text selectedBtn = button.GetComponentInChildren<Text> ();
         if (selectedBtn.text == "簡単") {
-            difficultFlag=1;
+            difficultFlag=0;
             SceneManager.LoadScene("SelectTime");
         }
         if (selectedBtn.text == "普通") {
-            difficultFlag=2;
+            difficultFlag=1;
             SceneManager.LoadScene("SelectTime");
         }
         if (selectedBtn.text == "難しい") {
-            difficultFlag=3;
+            difficultFlag=2;
             SceneManager.LoadScene("SelectTime");
         }
     }
